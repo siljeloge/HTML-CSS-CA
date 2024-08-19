@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "Maven Pro', 'Verdana', 'sans-serif";
+  src: url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap") format("truetype");
+}
+
 header {
-  background-color: #6F8D93;
+  background-color: #86a1a6;
   display: inline-flex;
   max-height: 200px;
   width: 100%;
-  display: flex;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -24,7 +29,6 @@ a:hover {
 }
 
 nav a {
-  color: #0A3641;
   font-size: 22px;
   font-family: 'Maven Pro', 'Verdana', 'sans-serif';
 }
@@ -36,87 +40,93 @@ body {
 
 .homebackground {
   display: flex;
+  position: relative;
+  text-align: center;
 }
 
 footer {
-  background-color: #6F8D93;
+  background-color: #86a1a6;
   font-family: 'Maven Pro', 'verdana', 'sans-serif';
-  font-size: 20px;
-  color: #0A3641;
-  height: 80px;
+  font-size: 18px;
+  color: #042a32;
+  height: 100px;
   text-align: center;
   padding: 20px;
+  position: relative;
 }
 
-.footerlink a{
-  color: #0A3641;
+.footerlink a, nav a{
+  color: #042a32;
 }
 
 .footerlink li {
   display: inline-block;
-  margin: 10px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
 }
 
 /* About-page */
 
-h1{
+.aboutus h1{
   font-family: 'Maven Pro', 'verdana', 'sans-serif';
   font-size: 45px;
   color: #0A3641;
   font-weight: 100;
   padding-top: 40px;
   margin-bottom: 60px;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 p{
   font-size: 24px;
   font-family: 'Maven Pro', 'verdana', 'sans-serif';
   color: #0A3641;
-  margin-left: 50px;
+  margin-left: 45px;
   width: 600px;
-  
+  margin-bottom: 35px;
 }
 
 .about-image {
-  margin-right: 180px;
   border-radius: 50px;
-  float: right;
   max-height: 700px;
-  margin-top: -100px;
-
+  float: right;
+  margin-right: 180px;
+  margin-top: -55px;
 }
 
 /* Contact-page */
 
-input[type=text], select, textarea {
-  width: 600px; 
-  padding: 12px; 
+.contact-form input {
   border: 2px solid #0A3641; 
   border-radius: 15px; 
-  margin-top: 20px; 
-  margin-bottom: 20px; 
+  margin: 10px;
+  padding: 12px;
 }
 
-.container {
-  padding-right: 60px;
+.contact-form label, h1{
+  margin-left: 10px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.contact-form {
   font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
-  font-size: 25px;
+  font-size: 24px;
   color: #0A3641;
-  margin: 30px;
-  margin-left: 50px;
-  max-width: 600px;
-  float: left;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  line-height: 50px;
+  max-width: 500px;
 }
 
-button {
+.contact-form .btn {
   background-color:#0A3641;
   font-size: 18px;
   padding: 15px 30px;
   font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
-  border: none;
   border-radius: 15px;
+  margin-left: 10px;
 }
 
 a {
@@ -125,37 +135,45 @@ a {
 }
 
 .contact-image {
-  border-radius: 50px;
-  height: 650px;
-  width: 450px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  margin-top: -100px;
+  border-radius: 25px;
+  max-height: 580px;
+  float: right;
+  margin-top: -600px;
+  margin-right: 250px;
 }
 
 /* Feedback */
 
 #headline {
   text-align: center;
+  margin: 50px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif';
+  color: #0A3641;
 }
 
 #response {
   margin-left: 450px;
   margin-top: -20px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
-#close_feedback {
+.close_feedback {
   margin-left: 680px;
-  margin-bottom: 80px;
-  margin-top: 50px;
+  background-color:#0A3641;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  border-radius: 15px;
+  display: inline-flex;
+  margin-bottom: 40px;
 }
 
 /* Jackets */
 
 .motto {
   margin-top: 40px;
-  margin-left: 180px;
+  margin-left: 200px;
   margin-bottom: 20px;
 }
 
@@ -165,23 +183,24 @@ a {
   justify-content: center;
 }
 
-.flex-container h2{
-  font-family:'Maven Pro', 'verdana', 'sans-serif' ;
+.flex-container h1{
+  text-align: center;
+  padding-left: 10px;
+  font-family:'Maven Pro', 'verdana', 'sans-serif';
+  font-size: 40px;
+  color: #0A3641;
+}
+
+.flex-container h2, h3{
+  font-family:'Maven Pro', 'verdana', 'sans-serif';
   font-weight: lighter;
   text-align: center;
   padding-bottom: 10px;
-  color: black;
-}
-
-.flex-container h3{
-  font-family: 'Maven Pro', 'verdana', 'sans-serif';
-  font-weight: lighter;
-  text-align: center;
   color: #0A3641;
 }
 
 .card1 {
-  max-width: 270px;
+  max-width: 290px;
   margin: 80px;
 }
 
@@ -208,44 +227,67 @@ a {
 /* Jacket 1 */
 
 .jacket--1{
-  margin-left: 140px;
   margin-top: 100px;
+  margin-left: 210px;
   float: left;
+  width: 25%;
+  height: auto;
 }
 
 .product_info {
-  display:inline-block;
-  margin: 80px;
+  display: inline-block;
+  padding-bottom: 50px;
+  margin: 110px;
   font-family: 'Maven Pro', 'verdana', 'sans-serif';
 }
 
 .product_info h1 {
-  padding-top: 60px;
   font-size: 50px;
+  margin-left: 45px;
+  color: #0A3641;
 }
 
 .product_info h2{
-  padding-left: 50px;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 36px;
+  margin-left: 45px;
+  padding-bottom: 30px;
 }
 
-.product_info h3, .product_info h4{
-  padding-left: 50px;
+.product_info h3{
+  font-weight: lighter;
+  font-size: 36px;
+  margin-left: 45px;
+  padding-bottom: 30px;
+  color: #0A3641;
+}
+
+.product_info p {
   font-weight: lighter;
   font-size: 18px;
+  line-height: 7px;
+  color: black;
 }
 
-.product_info button {
-  margin-left: 45px;
-  margin-top: 30px;
+.product_info a{
+  background-color:#0A3641;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  border-radius: 15px;
+  display: inline-flex;
+  margin-left: 44px;
 }
 
 /* Shoppingcart */
 
 .cart h1{
   text-align: center;
+  margin-top: 40px;
   padding: 10px;
+  font-family:'Maven Pro', 'verdana', 'sans-serif';
+  font-size: 50px;
+  color: #0A3641;
 }
 
 .jacket__1 {
@@ -271,14 +313,19 @@ width: 60%;
 
 .cart h3{
   padding: 40px;
+  text-align: center;
 }
 
-.cart button{
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-top: 40px;
+.cart a{
+  background-color:#0A3641;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  border-radius: 15px;
+  display: inline-block;
   margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 640px;
 }
 
 /* Checkout */
@@ -294,10 +341,27 @@ width: 60%;
   font-size: 40px;
 }
 
+.shipping-form input {
+  border: 2px solid #0A3641; 
+  border-radius: 15px; 
+  margin-top: 10px;
+  padding: 10px;
+  width: 450px;
+}
+
+.payment-form input {
+  border: 2px solid #0A3641; 
+  border-radius: 15px; 
+  padding: 10px;
+  margin-top: 10px;
+  width: 450px;
+}
+
 .payment-form, .shipping-form {
-  padding: 20px;
+  padding: 30px;
   font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
   font-size: 20px;
+  line-height: 40px;
   color: #0A3641;
   max-width: 500px;
   margin: 30px;
@@ -305,24 +369,198 @@ width: 60%;
   background-color: #c6ced0;
 }
 
-#purchasebutton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-top: 60px;
+#purchasebtn {
+  background-color:#0A3641;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  border-radius: 15px;
+  display: inline-block;
   margin-bottom: 40px;
-  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 640px;
 }
 
 /* Confirmed purchase */
 
-#confirmed-info {
+#confirmed-info h1 {
   text-align: center;
-  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  font-family:'Maven Pro', 'verdana', 'sans-serif';
+  font-size: 46px;
+  color: #0A3641;
+  margin-top: 50px;
 }
 
 #confirmed-info h2{
   font-weight: lighter;
-  color: #0A3641;
+  text-align: center;
+  font-family:'Maven Pro', 'verdana', 'sans-serif';
   font-size: 30px;
+  color: #0A3641;
+  padding-bottom: 100px;
 }
+
+.button {
+  background-color:#0A3641;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-family: 'Maven Pro', 'verdana', 'sans-serif' ;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 640px;
+}
+
+/* Small devices (mobile phones, less than 600px) */
+@media only screen and (max-width: 599px) {
+  
+  .logo {
+    padding: 13px;
+    max-width: 340px;
+    position: absolute;
+  }
+
+  nav li {
+    margin-top: 140px;
+    margin-left: -46px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  .about-image, .contact-image {
+    display: none;
+  }
+
+  .aboutus p {
+    font-size: 20px;
+    margin-bottom: -16px;
+    margin-left: 6px;
+    max-width: fit-content;
+    padding-bottom: 25px;
+  }
+
+  .aboutus h1, .contact-form h1{
+    font-size: 36px;
+    margin-left: 7px;
+    margin-top: -6px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .contact-form label {
+    margin-left: 7px;
+  }
+
+  .contact-form input {
+    max-width: 80%;
+    margin-left: 7px;
+  }
+
+  .close-feedback {
+    margin-left: 7px;
+  }
+
+  #headline, #response {
+    font-size: 20px;
+  }
+
+  .flex-container-purchase {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .shipping-form, .payment-form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .motto{
+    display: none;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6 {
+    width: 100%;
+    margin: 10px ;
+  }
+
+  .jacket--1 {
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  .product_info h1, .product_info h2{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .product_info p{
+    font-size: 14px;
+    margin-left: -100px;
+  }
+
+  .product_info a{
+    margin-left: 1px;
+  }
+  
+
+  .cart a {
+    margin-left: 0;
+  }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+  nav li {
+    margin-top: 12%;
+    padding: 15px;
+    margin-left: 15px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .contact-form, .about-image, .contact-image {
+    margin: 0;
+    padding: 20px;
+  }
+
+  input[type=text], select, textarea {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .btn, #purchasebtn {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6 {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .jacket--1, .product_info {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .jacket__1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .cart a {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+

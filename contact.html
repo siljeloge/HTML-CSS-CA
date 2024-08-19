@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Rainy Days - Contact</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico.jpeg">
         <meta charset="UTF-8">
         <meta name="description" content="Rainjackets made with good quality">
-        <meta name="viewport" content="widht=device=widht, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <link href="css/styles.css" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     </head>
     <body>
       <header>
-        <img src="images/Rainydayslogo.png" alt="Rainy days logo" class="logo"/>
+        <img src="images/Rainydayslogo.png" alt="Rainy days logo" class="logo">
           <nav>
               <ul>
                   <li><a href="index.html">HOME</a></li>
@@ -23,28 +23,32 @@
           </nav> 
       </header>
       <main>
-        <h1>CONTACT US</h1>
-        <div class="container">
-          <form action="form-success.php">
-            <label for="fullname">Full Name</label>
-            <input type="text" id="forminfo" name="fullname" >
-            <label for="email">E-mail</label>
-            <input type="text" id="forminfo" name="email" >
-            <label for="subject">Message</label>
-            <textarea id="forminfo" name="subject" style="height:200px"></textarea>
-            <button type="subject"><a href="feedback.html">CONTACT US</a></li>
-          </form>
+        <div class="contact-form">
+          <form action="action_page.php" autocomplete="on">
+            <h1>CONTACT US</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" style="width: 450px; height: 10px;">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" style="width: 450px; height: 10px;">
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" style="width: 450px; height: 80px;">
+            <a class="btn" href="feedback.html">
+              CONTACT US
+            </a>
+            </form>
         </div>
-        <img src="images/contact.jpg" alt="contact" class="contact-image" width="400" height="500" />
+        <img src="images/contact.jpg" alt="man in forest" class="contact-image">
       </main>
       <footer>
-        <section class="footerlink">
-                <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="jackets.html">JACKETS</a></li>
-            </section>
-            &copy; 2024 Rainy Days. All rights reserved
-    </footer>
-  </body>
+        <div class="footerlink">
+           <ul>
+               <li><a href="aboutus.html">ABOUT US</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+               <li><a href="jackets.html">JACKETS</a></li>
+           </ul>
+        </div>
+               &copy; 2024 Rainy Days. All rights reserved
+   </footer>
+ </body>
 </html>
 
