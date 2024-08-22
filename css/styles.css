@@ -434,6 +434,10 @@ width: 60%;
     padding-right: 4px;
   }
 
+  footer{
+    padding: 40px;
+  }
+
   .about-image, .contact-image, #response {
     display: none;
   }
