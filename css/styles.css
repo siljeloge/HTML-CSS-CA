@@ -412,6 +412,8 @@ width: 60%;
   margin-left: 640px;
 }
 
+
+
 /* Small devices (mobile phones, less than 600px) */
 @media only screen and (max-width: 600px) {
   
@@ -476,11 +478,11 @@ width: 60%;
   }
 
   .shipping-form input, .payment-form input {
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .shipping-form, .payment-form {
-    width: 95%;
+    width: 85%;
     margin: 0;
   }
 
@@ -498,28 +500,28 @@ width: 60%;
   }
 
   .jacket--1 {
-    width: 290px;
-    margin-left: 60px;
+    width: 280px;
+    margin-left: 50px;
   }
 
   .product_info h1, .product_info h2{
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
 
   .product_info p{
-    font-size: 14px;
-    margin-left: -190px;
-    text-align: center;
+    display: none;
   }
 
   .product_info a{
-    margin-left: 30px;
-    margin-bottom: 100px;
+    margin-left: 1px;
+    margin-bottom: 80px;
   }
 
  .cart .jacket__1{
-  width: 380px;
+  width: 390px;
+  margin-left: -14px;
+  padding-right: 1px;
  }
 
   .cart a {
