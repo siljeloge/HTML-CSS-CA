@@ -43,6 +43,7 @@ body {
   display: flex;
   position: relative;
   text-align: center;
+  width: 100%;
 }
 
 footer {
@@ -102,6 +103,9 @@ p{
   border-radius: 15px; 
   margin: 10px;
   padding: 12px;
+  width: 450px;
+  height: 10px;
+  font-size: 18px;
 }
 
 .contact-form label, h1{
@@ -137,10 +141,10 @@ a {
 
 .contact-image {
   border-radius: 25px;
-  max-height: 580px;
+  max-height: 480px;
   float: right;
-  margin-top: -600px;
-  margin-right: 250px;
+  margin-top: -510px;
+  margin-right: 350px;
 }
 
 /* Feedback */
@@ -155,7 +159,6 @@ a {
   padding-bottom: 40px;
   padding-top: 40px;
 }
-
 
 .close_feedback {
   margin-left: 680px;
@@ -173,9 +176,10 @@ a {
 /* Jackets */
 
 .motto {
-  margin-top: 40px;
-  margin-left: 200px;
-  margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .flex-container {
@@ -200,29 +204,25 @@ a {
   color: #0A3641;
 }
 
-.card1 {
-  max-width: 290px;
-  margin: 80px;
-}
-
-.card2 {
+.flex-container img{
   max-width: 310px;
   margin: 80px;
 }
 
-.card3 {
-  max-width: 340px;
-  margin: 80px;
+.card2 h1 {
+  padding-top: 50px;
 }
 
-.card4, .card5{
-  width: 300px;
-  margin: 80px;
+.card3 h1 {
+  padding-top: 85px;
 }
 
-.card6 {
-  width: 330px;
-  margin: 90px;
+.card4 h1{
+  padding-top: 10px;
+}
+
+.card6 h1 {
+ padding-top: 55px;
 }
 
 /* Jacket 1 */
@@ -237,7 +237,7 @@ a {
 .jacket--1{
   width: 420px;
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .product_info {
@@ -346,6 +346,7 @@ a {
   margin-top: 10px;
   padding: 10px;
   width: 450px;
+  font-size: 18px;
 }
 
 .payment-form input {
@@ -423,7 +424,7 @@ a {
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   footer{
@@ -475,20 +476,21 @@ a {
   }
 
   .shipping-form input, .payment-form input {
-    max-width: 280px;
+    max-width: 260px;
   }
 
   .motto, .cart hr{
     display: none;
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6 {
-    width: 100%;
-    margin: 10px;
+  .flex-container img{
+    width: 250px;
+    margin: auto;
+    padding-top: 20px;
   }
 
   .jacket__1{
-    width: 340px;
+    width: 320px;
   }
 
   .jacket--1{
