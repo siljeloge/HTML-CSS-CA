@@ -557,7 +557,7 @@ a {
       font-size: 26px;
   }
   
-    .about-image, .contact-image, .motto {
+    .about-image, .contact-image, .motto{
       display: none;
     }
 
@@ -593,10 +593,6 @@ a {
   .contact-image{
     margin-right: 80px;
     max-width: 350px;
-  }
-
-  .motto{
-    display: none;
   }
 
   .cart a, #purchasebtn, #closeconfirmed, .product_info .btn{
