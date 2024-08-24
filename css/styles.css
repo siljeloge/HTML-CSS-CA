@@ -25,6 +25,10 @@ nav li {
   display: inline-block;
 }
 
+nav li .active {
+  text-decoration: underline;
+}
+
 a:hover {
   text-decoration: underline;
 }
