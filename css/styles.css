@@ -344,21 +344,13 @@ a {
   font-size: 40px;
 }
 
-.shipping-form input {
+.shipping-form input, .payment-form input {
   border: 2px solid #0A3641; 
   border-radius: 15px; 
   margin-top: 10px;
   padding: 10px;
   width: 450px;
   font-size: 18px;
-}
-
-.payment-form input {
-  border: 2px solid #0A3641; 
-  border-radius: 15px; 
-  padding: 10px;
-  margin-top: 10px;
-  width: 450px;
 }
 
 .payment-form, .shipping-form {
