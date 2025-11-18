@@ -180,53 +180,39 @@ a {
 /* Jackets */
 
 .motto {
-  display: block;
-  margin: auto;
   text-align: center;
-  padding-top: 20px;
+  margin: 40px;
 }
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .flex-container h1{
-  text-align: center;
-  padding-left: 10px;
   font-family:'Maven Pro', 'verdana', 'sans-serif';
   font-size: 40px;
   color: #0A3641;
 }
 
-.flex-container h2, h3{
+.flex-container h2, .flex-container h3{
   font-family:'Maven Pro', 'verdana', 'sans-serif';
   font-weight: lighter;
-  text-align: center;
-  padding-bottom: 10px;
+  font-size: 22px;
   color: #0A3641;
 }
 
 .flex-container img{
-  max-width: 310px;
-  margin: 80px;
-}
-
-.card2 h1 {
-  padding-top: 50px;
-}
-
-.card3 h1 {
-  padding-top: 85px;
-}
-
-.card4 h1{
-  padding-top: 10px;
-}
-
-.card6 h1 {
- padding-top: 55px;
+  width: 300px;
+  height: 350px;
 }
 
 /* Jacket 1 */
