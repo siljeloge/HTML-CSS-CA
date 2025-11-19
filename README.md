@@ -20,6 +20,8 @@ The page includes:
 
 <h1>Built with</h1>
 
+- Figma
+
 - Basic HTML
 
 - Basic CSS
